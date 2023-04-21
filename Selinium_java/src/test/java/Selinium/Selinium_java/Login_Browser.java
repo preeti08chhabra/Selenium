@@ -19,7 +19,7 @@ public class Login_Browser
 	 WebElement log= cd.findElement(By.cssSelector("a[class='ico-login']"));
 	 log.click();
 	WebElement email=cd.findElement(By.name("Email"));
-	email.sendKeys("preeti.chhabra08@gmail.com");
+	email.sendKeys("preeti.chhabra09@gmail.com");
 	 WebElement pwd=cd.findElement(By.name("Password"));
 	 pwd.sendKeys("hello@123");
 	 WebElement log1=cd.findElement(By.cssSelector("input[value='Log in']"));
