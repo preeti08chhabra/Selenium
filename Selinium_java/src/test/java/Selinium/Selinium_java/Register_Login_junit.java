@@ -16,8 +16,8 @@ public class Register_Login_junit
 	public void browse()
 	{
 		
-		System.setProperty("webdriver.http.factory", "jdk-http-client");
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\preeti.chhabra\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		//System.setProperty("webdriver.http.factory", "jdk-http-client");
+		//System.setProperty("webdriver.chrome.driver","C:\\Users\\preeti.chhabra\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		drive =new ChromeDriver();
 		drive.get("https://www.amazon.in/");
 		Options op =drive.manage();

@@ -10,7 +10,7 @@ public class Login_Browser
 {
 	public void loginbrowser() throws InterruptedException
 	{
-	System.setProperty("webdriver.chrome.driver","C:\\Users\\preeti.chhabra\\Downloads\\chromedriver_win32\\chromedriver.exe");
+	//System.setProperty("webdriver.chrome.driver","C:\\Users\\preeti.chhabra\\Downloads\\chromedriver_win32\\chromedriver.exe");
 	 ChromeDriver cd= new ChromeDriver();
 	cd.get("https://demowebshop.tricentis.com");
 	 Options op =cd.manage();//manage is the inbuilt method of Remotewebdriver class with returntype option

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-16T08:48:36Z" name="Default suite" finished-at="2023-05-16T08:48:36Z" duration-ms="20">
+    <groups>
+    </groups>
+    <test started-at="2023-05-16T08:48:36Z" name="Default test" finished-at="2023-05-16T08:48:36Z" duration-ms="20">
+      <class name="Selinium.Selinium_java.TestNG_anno">
+        <test-method is-config="true" signature="test5()[pri:0, instance:Selinium.Selinium_java.TestNG_anno@45a37759]" started-at="2023-05-16T14:18:36Z" name="test5" finished-at="2023-05-16T14:18:36Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="test6()[pri:0, instance:Selinium.Selinium_java.TestNG_anno@45a37759]" started-at="2023-05-16T14:18:36Z" name="test6" finished-at="2023-05-16T14:18:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method is-config="true" signature="testm()[pri:0, instance:Selinium.Selinium_java.TestNG_anno@45a37759]" started-at="2023-05-16T14:18:36Z" name="testm" finished-at="2023-05-16T14:18:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testm -->
+        <test-method signature="test1()[pri:0, instance:Selinium.Selinium_java.TestNG_anno@45a37759]" started-at="2023-05-16T14:18:36Z" name="test1" finished-at="2023-05-16T14:18:36Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:Selinium.Selinium_java.TestNG_anno@45a37759]" started-at="2023-05-16T14:18:36Z" name="test2" finished-at="2023-05-16T14:18:36Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="testm()[pri:0, instance:Selinium.Selinium_java.TestNG_anno@45a37759]" started-at="2023-05-16T14:18:36Z" name="testm" finished-at="2023-05-16T14:18:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testm -->
+        <test-method is-config="true" signature="test3()[pri:0, instance:Selinium.Selinium_java.TestNG_anno@45a37759]" started-at="2023-05-16T14:18:36Z" name="test3" finished-at="2023-05-16T14:18:36Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="test4()[pri:0, instance:Selinium.Selinium_java.TestNG_anno@45a37759]" started-at="2023-05-16T14:18:36Z" name="test4" finished-at="2023-05-16T14:18:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- Selinium.Selinium_java.TestNG_anno -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

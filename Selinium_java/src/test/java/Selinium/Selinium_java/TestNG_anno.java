@@ -3,6 +3,7 @@ package Selinium.Selinium_java;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
@@ -28,6 +29,11 @@ public class TestNG_anno
 	public void test4()
 	{
 		System.out.println("AfterSuite");
+	}
+	@BeforeMethod
+	public void testm()
+	{
+		System.out.println("Beformethod");
 	}
 	@BeforeSuite
 	public void test5()

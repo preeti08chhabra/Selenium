@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver.Options;
 import org.openqa.selenium.WebDriver.Window;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
 
 public class browser_launch 
@@ -36,6 +37,13 @@ public class browser_launch
 	 button.click();
 	 WebElement cont=cd.findElement(By.cssSelector("input[value='Continue']"));
 	 cont.click();
+	 /* if want to work for drop down
+	 WebElement state = cd.findElement(By.id("state"));//element located
+	 Select s = new Select(state);
+	 s.selectByVisibleText("Haryana"); //Harayana value will be selected from dropdown
+	 s.selectByIndex(2);// if Haryana locates at index no 2 then, pass index value as 2
+	 s.selectByValue("8");// for this expand while locating and check its value under select tag
+	 */
 	 }
  public static void main(String[] args)
  {
